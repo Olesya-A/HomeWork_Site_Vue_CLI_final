@@ -1,0 +1,35 @@
+.project_details_banner {
+  height: 351px;
+  background-image: url(../image/project_details_banner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 200px;
+}
+
+.project_details {
+  margin-left: 271px;
+  margin-right: 271px;
+  margin-bottom: 70px;
+
+  &_header {
+    color: #292f36;
+    font-family: $fontTitles;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 1px;
+    margin-bottom: 11px;
+  }
+
+  &_text {
+    color: #4d5053;
+    font-family: $fontText;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    margin-bottom: 30px;
+  }
+}

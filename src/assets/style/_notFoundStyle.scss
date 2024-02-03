@@ -1,0 +1,50 @@
+.notfound {
+  display: flex;
+  gap: 81px;
+  padding-left: calc(50% - 600px);
+
+  &-content {
+    padding-top: 309px;
+    padding-bottom: 309px;
+
+    &__header {
+      font-family: "DM Serif Display";
+      font-size: 250px;
+      color: #cda274;
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      font-family: "DM Serif Display";
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+
+    &__button {
+      border-radius: 18px;
+      border: none;
+      padding: 26px 49px 26px 48px;
+      background-color: #292f36;
+
+      .button-link {
+        color: #fff;
+        font-family: "Jost";
+        font-size: 18px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+    }
+    &__button:hover {
+      background-color: #4d5053;
+      cursor: pointer;
+    }
+  }
+
+  &-img {
+    width: 913px;
+    height: 1042px;
+    left: 650px;
+    border-radius: 0 0 0 353px;
+  }
+}
